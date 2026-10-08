@@ -7,7 +7,7 @@ cask "huebar" do
   desc "Menu bar app for controlling Philips Hue lights"
   homepage "https://github.com/jurre/huebar"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "HueBar.app"
 end
