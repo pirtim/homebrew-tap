@@ -1,0 +1,18 @@
+# Pirtim Tap
+
+## How do I install these formulae?
+
+`brew install pirtim/tap/<formula>`
+
+Or `brew tap pirtim/tap` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "pirtim/tap"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
